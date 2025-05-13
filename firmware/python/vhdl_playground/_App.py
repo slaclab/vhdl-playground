@@ -1,1 +1,4 @@
-print("Hello World!")
+class App():
+    def __init__(self):
+        print("Hello World!")
+
