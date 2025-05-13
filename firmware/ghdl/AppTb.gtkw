@@ -1,0 +1,36 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue May 13 23:03:11 2025
+[*]
+[dumpfile] "/home/cbakalis/Work/SLAC/projects/github/general/vhdl-playground/firmware/ghdl/AppTb.ghw"
+[dumpfile_mtime] "Tue May 13 23:03:02 2025"
+[dumpfile_size] 28666
+[savefile] "/home/cbakalis/Work/SLAC/projects/github/general/vhdl-playground/firmware/ghdl/AppTb.gtkw"
+[timestart] 0
+[size] 2560 1043
+[pos] -1 -1
+*-30.830467 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.apptb.
+[treeopen] top.apptb.u_dut.
+[sst_width] 233
+[signals_width] 102
+[sst_expanded] 1
+[sst_vpaned_height] 298
+@28
+top.apptb.done
+top.apptb.start
+top.apptb.rst
+top.apptb.clk
+@24
+#{top.apptb.dout[6:0]} top.apptb.dout[6] top.apptb.dout[5] top.apptb.dout[4] top.apptb.dout[3] top.apptb.dout[2] top.apptb.dout[1] top.apptb.dout[0]
+@200
+-app
+@420
+top.apptb.u_dut.r.state
+@28
+top.apptb.u_dut.r.done
+top.apptb.u_dut.r.start
+top.apptb.u_dut.r.go
+[pattern_trace] 1
+[pattern_trace] 0
