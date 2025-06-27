@@ -2,7 +2,13 @@
 This repository is intended to be used as a simple VHDL syntax checker. It can also be used to run VHDL testbenches. This repository leverages the `surf` library (imported as a submodule) and uses `ghdl` to check the syntax and run the testbenches.
 
 ## How to Clone this Repository
-Run: `$ git clone --recurse-submodules git@github.com:slaclab/vhdl-playground.git`
+```
+$ git clone --recurse-submodules https://github.com/slaclab/vhdl-playground.git
+```
+
+Note the use of `https://github.com` instead of `git@github.com:`; please configure your client accordingly for HTTPS git repo management (via Github Tokens).
+
+SLAC users can refer to [this Confluence Page](https://confluence.slac.stanford.edu/x/XYU8J) on how to set up their Github Token.
 
 ## Folder Structure
 Under `shared/` one can find `rtl/` and `tb/`. If one wants to add new files to-be-checked in terms of syntax, these files have to be added under `rtl/`. If one wants to run a VHDL testbench, that testbench file has to be added under `tb/` first. Note that if one adds a file named `Test.vhd`, the testbench for that particular file has to be named `TestTb.vhd`.
